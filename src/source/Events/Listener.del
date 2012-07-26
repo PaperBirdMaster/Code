@@ -1,0 +1,34 @@
+#include "Listener.hpp"
+#include "Events.hpp"
+
+namespace PaperBird
+{
+namespace Events
+{
+
+//template <typename EventType, typename EventData> Listener::~Listener()
+//{
+//	UnregisterAll();
+//};
+
+//template <typename EventType, typename EventData> void Listener<EventType, EventData>::RegisterEvent(const Event_Base &aEvent, CallBack aCallBack)
+//{
+//	AddListener(aEvent, ListenerCallback(*this, aCallBack));
+//};
+//
+//template <typename EventType, typename EventData> void Listener<EventType, EventData>::UnregisterEvent(const Event_Base &aEvent)
+//{
+//};
+//
+//template <typename EventType, typename EventData> void Listener<EventType, EventData>::UnregisterAll()
+//{
+//	RemoveListener(*this);
+//};
+
+template <typename EventType, typename EventData> bool Listener<EventType, EventData>::operator ==(const Listener &aListener) const
+{
+	return this == &aListener;
+};
+
+}
+}

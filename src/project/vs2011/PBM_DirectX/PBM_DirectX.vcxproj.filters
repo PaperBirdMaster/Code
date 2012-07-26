@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Win32">
+      <UniqueIdentifier>{8ec5ec3a-0493-4d27-b399-c1eeda0807f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Win32\Types">
+      <UniqueIdentifier>{13e0c0a9-2da8-4756-aa18-f42b82547274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{4ae9bc76-023d-44de-a422-2a4199f3c1ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\Win32\Window.hpp">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Win32\Class.hpp">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Win32\DefaultCursors.hpp">
+      <Filter>Win32\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Win32\WindowClassStyle.hpp">
+      <Filter>Win32\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Win32\WindowExtendedStyle.hpp">
+      <Filter>Win32\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Win32\WindowsColors.hpp">
+      <Filter>Win32\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Win32\WindowStyle.hpp">
+      <Filter>Win32\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Events\Manager.hpp">
+      <Filter>Events</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\source\Win32\Window.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Win32\Class.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Events\Manager.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\PBM_DirectX\WinMain.cpp" />
+  </ItemGroup>
+</Project>
