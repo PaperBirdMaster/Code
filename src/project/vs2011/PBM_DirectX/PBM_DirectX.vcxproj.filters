@@ -44,9 +44,6 @@
     <ClCompile Include="..\..\..\source\Win32\Class.cpp">
       <Filter>Win32</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\source\Events\Manager.cpp">
-      <Filter>Events</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\source\PBM_DirectX\WinMain.cpp" />
   </ItemGroup>
 </Project>

@@ -98,7 +98,6 @@
     <ClInclude Include="..\..\..\include\Win32\WindowStyle.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\source\Events\Manager.cpp" />
     <ClCompile Include="..\..\..\source\PBM_DirectX\WinMain.cpp" />
     <ClCompile Include="..\..\..\source\Win32\Class.cpp" />
     <ClCompile Include="..\..\..\source\Win32\Window.cpp" />
