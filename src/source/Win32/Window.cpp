@@ -75,12 +75,6 @@ void Window::OnQuit(const std::pair<WPARAM, LPARAM> aData)
 	mReturnValue = aData.first;
 };
 
-HWND Window::GetHandlerWindow() const
-{
-	return mWindow;
-};
-
-
 LRESULT CALLBACK Window::ProcessMessages(HWND aReceptorWindow, UINT aMessageCode, WPARAM wParam, LPARAM lParam)
 {
 	LRESULT Result = 0;

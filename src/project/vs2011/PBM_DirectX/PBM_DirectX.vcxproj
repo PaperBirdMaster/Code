@@ -88,6 +88,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\include\DirectX\Application.hpp" />
     <ClInclude Include="..\..\..\include\Events\Manager.hpp" />
     <ClInclude Include="..\..\..\include\Win32\Class.hpp" />
     <ClInclude Include="..\..\..\include\Win32\DefaultCursors.hpp" />
@@ -98,6 +99,7 @@
     <ClInclude Include="..\..\..\include\Win32\WindowStyle.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\source\DirectX\Application.cpp" />
     <ClCompile Include="..\..\..\source\PBM_DirectX\WinMain.cpp" />
     <ClCompile Include="..\..\..\source\Win32\Class.cpp" />
     <ClCompile Include="..\..\..\source\Win32\Window.cpp" />

@@ -10,6 +10,9 @@
     <Filter Include="Events">
       <UniqueIdentifier>{4ae9bc76-023d-44de-a422-2a4199f3c1ce}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DirectX">
+      <UniqueIdentifier>{6bf8834f-97e7-4110-8ff2-f73365e86f78}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\include\Win32\Window.hpp">
@@ -36,6 +39,9 @@
     <ClInclude Include="..\..\..\include\Events\Manager.hpp">
       <Filter>Events</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\include\DirectX\Application.hpp">
+      <Filter>DirectX</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\source\Win32\Window.cpp">
@@ -45,5 +51,8 @@
       <Filter>Win32</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\source\PBM_DirectX\WinMain.cpp" />
+    <ClCompile Include="..\..\..\source\DirectX\Application.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

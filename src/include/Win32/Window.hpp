@@ -71,12 +71,7 @@ public:
 	*/
 	void OnQuit(const std::pair<WPARAM, LPARAM> aData);
 
-	/**
-	*
-	*/
-	HWND GetHandlerWindow() const;
-
-private:
+protected:
 
 	//! Puntero a la ventana.
 	HWND mWindow;
